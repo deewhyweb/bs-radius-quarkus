@@ -1,0 +1,11 @@
+# Placeholder Group
+[demo]
+
+
+# postgres database Group
+[pgsql]
+xxx ansible_user=lab-user
+xxx ansible_user=lab-user
+
+[demo:children]
+pgsql

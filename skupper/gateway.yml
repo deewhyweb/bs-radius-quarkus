@@ -1,0 +1,15 @@
+name: database
+bindings:
+    - name: database
+      host: localhost
+      service:
+        address: database:5432
+        protocol: tcp
+        ports:
+            - 5432
+      target_ports:
+        - 5432
+qdr-listeners:
+    - name: amqp
+      host: localhost
+      port: 5672
